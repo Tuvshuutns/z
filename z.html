@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>z</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="">
+        <div>
+          <p></p>
+          <div>
+            <div></div>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <p></p>
+        </div>
+        <p></p>
+      </div>
+    </div>
+    <script>
+      const bg = document.createElement("div");
+      bg.classList.add("bg");
+
+      const cnt = document.createElement("div");
+      cnt.classList.add("cnt");
+
+      const nt = document.createElement("div");
+      nt.classList.add("nt");
+
+      const numbers = document.createElement("div");
+      numbers.classList.add("numbers");
+      cnt.appendChild(nt);
+      cnt.appendChild(numbers);
+      bg.appendChild(cnt);
+      document.body.appendChild(bg);
+    </script>
+  </body>
+</html>
